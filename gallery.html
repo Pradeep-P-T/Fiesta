@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/gallery.css">
+        
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#" class="logo"><span>F</span>iest<span>A</span></a>
+
+        <nav class="navbar">
+            <a href="/index">Home</a>
+            <a href="/index#Service">Service</a>
+            <a href="/about" target="_blank">About</a>
+            <a href="/gallery">Gallery</a>
+            <a href="/packages">Packages</a>
+            <a href="/login">Login</a>
+            <a href="/reg">Register</a>
+        </nav>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">our <span>gallery</span></h1>
+
+        <div class="box-container">
+
+            
+            <div class="box">
+                <img src="images/g-9.jpg" alt="">
+                <h3 class="title">photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-2.3.jpg" alt="">
+                <h3 class="title">photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-2.4.jpg" alt="">
+                <h3 class="title">photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-2.5.jpeg" alt="">
+                <h3 class="title">photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+
+           
+            
+            <div class="box">
+                <img src="images/g-2.7.jpg" alt="">
+                <h3 class="title">photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="images/g-2.8.jpg" alt="">
+                <h3 class="title">photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="images/g-3.2.jpg" alt="">
+                <h3 class="title">photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+            
+            <div class="box">
+                <img src="images/g-3.1.jpeg" alt="">
+                <h3 class="title">photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/g-1.4.jpg" alt="">
+                <h3 class="title">Photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-1.5.jpg" alt="">
+                <h3 class="title">Photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-1.6.jpg" alt="">
+                <h3 class="title">photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-1.8.jpg" alt="">
+                <h3 class="title">photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-1.9.jpg" alt="">
+                <h3 class="title">Photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-2.2.jpg" alt="">
+                <h3 class="title">photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-2.1.jpg" alt="">
+                <h3 class="title">Photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="images/g-1.1.jpeg" alt="">
+                <h3 class="title">photos</h3>
+                <div class="icons">
+                    <a href="#" class="fas fa-heart"></a>
+
+                </div>
+            </div>
+            
+                    </div>
+            <div class="pag_container">
+                <ul class="listPage">
+                    <li class="link active" value="1" onclick="activeLink()"> 1 </li>
+                    <li class="link" value="2" onclick="activeLink()"> 2 </li>
+                </ul>
+               </div>
+            
+               <script src="js/pagination.js">
+                let link = document.getElementsByClassName("link");
+                let currentValue = 1;
+                function activeLink(){
+                    for(l of link){
+                        l.classList.remove("active");
+                    }
+                    event.target.classList.add("active");
+                    currentValue = event.target.value;
+                }
+               </script>
+
+            
+
+    </section>
+    <!-- gallery section ends -->
+
+    <!-- footer section starts  -->
+
+ <section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>branches</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Basvanagudi </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> RajajiNagar </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> J P Nagar </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> JayaNagar </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Indiranagar </a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="index.html"> <i class="fas fa-arrow-right"></i> Home </a>
+            <a href="index.html#Service"> <i class="fas fa-arrow-right"></i> Service </a>
+            <a href="about.html"> <i class="fas fa-arrow-right"></i> About </a>
+            <a href="gallery.html"> <i class="fas fa-arrow-right"></i> Gallery </a>
+            <a href="packages.html"> <i class="fas fa-arrow-right"></i> Packages </a>
+            <a href="index.html#review"> <i class="fas fa-arrow-right"></i> Review </a>
+            <a href="#"> <i class="fas fa-arrow-right"></i> Contact </a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+            <a href="#"> <i class="fas fa-phone"></i> +111-232-3333 </a>
+            <a href="#"> <i class="fas fa-envelope"></i> prabhanjan@gmail.com </a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i> Bangalore, India - 560019 </a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+            <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+            <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+            <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span>@Fiesta developers</span> | all rights reserved </div>
+
+</section>
+
+<!-- footer section ends -->
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
