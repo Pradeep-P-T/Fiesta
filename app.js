@@ -35,6 +35,9 @@ app.get("/packages",function(req,res){
     res.sendFile(__dirname+"/packages.html");
 });
 
+app.get("/packages1",function(req,res){
+    res.sendFile(__dirname+"/packages1.html");
+});
 
 app.use(register);
 

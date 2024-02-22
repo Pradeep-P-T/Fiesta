@@ -19,7 +19,7 @@ router2.post("/login", async function(req, res){
         const foundUser = await User.findOne({ username: username });
 
         if (foundUser && foundUser.password === password) {
-            res.redirect("/packages");
+            res.redirect("/packages1");
         } else {
             res.sendFile(__dirname+"/failure.html");
         }
