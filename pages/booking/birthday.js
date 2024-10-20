@@ -2,17 +2,17 @@ const express=require("express");
 const bodyParser=require("body-parser");
 const request=require("request");
 const mongoose=require("mongoose");
-const OfficialConference=require("./officialconferencesdb");
+const Birthday=require("../../models/birthdaydb");
 
 
 const router=express.Router();
 
-router.get("/officialconferences",function(req,res){
-    res.sendFile(__dirname+"/officialconferences.html");
+router.get("/birthday",function(req,res){
+    res.sendFile(__dirname+"/birthday.html");
 });
-router.post("/officialconferences", async function(req, res){
+router.post("/birthday", async function(req, res){
     try {
-        const newOfficialConference = new OfficialConference({
+        const newBirthday = new Birthday({
             name: req.body.name,
             email: req.body.email,
             number: req.body.number,
@@ -20,7 +20,7 @@ router.post("/officialconferences", async function(req, res){
             date: req.body.sdate
         });
 
-        await newOfficialConference.save();
+        await newBirthday.save();
         res.sendFile(__dirname+"/booked.html");
     } catch (err) {
         console.log(err);

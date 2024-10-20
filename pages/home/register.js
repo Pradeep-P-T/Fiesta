@@ -2,7 +2,7 @@ const express=require("express");
 const bodyParser=require("body-parser");
 const request=require("request");
 const mongoose=require("mongoose");
-const User=require("./user");
+const User=require("../../models/user");
 
 const router1=express.Router();
 

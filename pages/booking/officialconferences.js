@@ -2,17 +2,17 @@ const express=require("express");
 const bodyParser=require("body-parser");
 const request=require("request");
 const mongoose=require("mongoose");
-const NorthWedding=require("./northindianweddingdb");
+const OfficialConference=require("../../models/officialconferencesdb");
 
 
 const router=express.Router();
 
-router.get("/northindianwedding",function(req,res){
-    res.sendFile(__dirname+"/northindianwedding.html");
+router.get("/officialconferences",function(req,res){
+    res.sendFile(__dirname+"/officialconferences.html");
 });
-router.post("/northindianwedding", async function(req, res){
+router.post("/officialconferences", async function(req, res){
     try {
-        const newNorthWedding = new NorthWedding({
+        const newOfficialConference = new OfficialConference({
             name: req.body.name,
             email: req.body.email,
             number: req.body.number,
@@ -20,7 +20,7 @@ router.post("/northindianwedding", async function(req, res){
             date: req.body.sdate
         });
 
-        await newNorthWedding.save();
+        await newOfficialConference.save();
         res.sendFile(__dirname+"/booked.html");
     } catch (err) {
         console.log(err);

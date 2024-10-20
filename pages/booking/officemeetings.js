@@ -2,17 +2,17 @@ const express=require("express");
 const bodyParser=require("body-parser");
 const request=require("request");
 const mongoose=require("mongoose");
-const SouthWedding=require("./southindianweddingdb");
+const OfficeMeeting=require("../../models/officemeetingsdb");
 
 
 const router=express.Router();
 
-router.get("/southindianwedding",function(req,res){
-    res.sendFile(__dirname+"/southindianwedding.html");
+router.get("/officemeetings",function(req,res){
+    res.sendFile(__dirname+"/officemeetings.html");
 });
-router.post("/southindianwedding", async function(req, res){
+router.post("/officemeetings", async function(req, res){
     try {
-        const newSouthWedding = new SouthWedding({
+        const newOfficeMeeting = new OfficeMeeting({
             name: req.body.name,
             email: req.body.email,
             number: req.body.number,
@@ -20,7 +20,7 @@ router.post("/southindianwedding", async function(req, res){
             date: req.body.sdate
         });
 
-        await newSouthWedding.save();
+        await newOfficeMeeting.save();
         res.sendFile(__dirname+"/booked.html");
     } catch (err) {
         console.log(err);
