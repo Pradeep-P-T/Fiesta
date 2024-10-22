@@ -29,7 +29,7 @@ You can visit the live version of the Fiesta Event Management platform here:
 
 ### What is Fiesta?
 
-Fiesta is an event management platform that simplifies the process of planning, organizing, and executing events. It is designed to offer seamless functionality for event organizers and attendees, enabling them to interact efficiently via an intuitive web interface. It covers all the crucial aspects such as ticketing, attendee management, scheduling, and communication tools, making it a comprehensive solution for managing both small and large-scale events.
+Fiesta is an event management platform that simplifies the process of planning, organizing, and executing events. It is designed to offer seamless functionality for event organizers and attendees, enabling them to interact efficiently via an intuitive web interface. It covers all the crucial aspects such as booking, attendee management, scheduling, and communication tools, making it a comprehensive solution for managing both small and large-scale events.
 
 ### Features
 
@@ -57,7 +57,7 @@ Before setting up the project, make sure you have the following prerequisites in
 ### Installation
 
 <ul>
-  <li><strong>Clone the repository</strong>:<pre><code>git clone https://github.com/Pradeep-P-T/fiesta.git</code></pre></li>
+  <li><strong>Clone the repository</strong>:<pre><code>git clone https://github.com/Pradeep-P-T/Fiesta.git</code></pre></li>
   <li>Navigate to the project directory:<pre><code>cd Fiesta</code></pre></li>
   <li>Install dependencies:<pre><code>npm install</code></pre></li>
   <li>Run the server:<pre><code>node app.js</code></pre></li>
