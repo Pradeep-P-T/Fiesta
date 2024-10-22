@@ -57,8 +57,8 @@ Before setting up the project, make sure you have the following prerequisites in
 ### Installation
 
 <ul>
-  <li><strong>Clone the repository</strong>:<pre><code>git clone https://github.com/username/fiesta.git</code></pre></li>
-  <li>Navigate to the project directory:<pre><code>cd fiesta</code></pre></li>
+  <li><strong>Clone the repository</strong>:<pre><code>git clone https://github.com/Pradeep-P-T/fiesta.git</code></pre></li>
+  <li>Navigate to the project directory:<pre><code>cd Fiesta</code></pre></li>
   <li>Install dependencies:<pre><code>npm install</code></pre></li>
   <li>Run the server:<pre><code>node app.js</code></pre></li>
   <li>Open the application on the browser:<pre><code>localhost:3000</code></pre></li>
@@ -76,8 +76,11 @@ Before setting up the project, make sure you have the following prerequisites in
 ## Screenshots
 
 <p>Here are some screenshots showcasing the platform:</p>
-<img src="https://github.com/user-attachments/assets/fiesta-home.png" alt="Fiesta Home Page" width="400" style="max-width: 100%;">
-<img src="https://github.com/user-attachments/assets/fiesta-event-page.png" alt="Event Page" width="400" style="max-width: 100%;">
+
+![Screenshot 2024-02-22 184719](https://github.com/user-attachments/assets/5afac8c3-a017-4608-bd75-cb70ba492f41)
+![Screenshot 2024-02-22 184814](https://github.com/user-attachments/assets/9050a8c4-41e7-4e02-b7d9-cbf657b88532)
+![Screenshot 2024-02-22 185058](https://github.com/user-attachments/assets/180ae3eb-c3a8-4698-a154-fb227021494e)
+![Screenshot 2024-02-22 185212](https://github.com/user-attachments/assets/e68b3c80-6d27-40e3-ae55-832b921b13c2)
 
 ## Team
 
