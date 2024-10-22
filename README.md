@@ -2,6 +2,11 @@
 
 Fiesta is a comprehensive full-stack web platform designed for seamless event planning and management. It allows users to register, create, and manage events, providing a streamlined experience for organizers and attendees. The platform integrates features such as online ticketing, scheduling, attendee management, and payment processing to create a hassle-free experience.
 
+You can visit the live version of the Fiesta Event Management platform here:
+
+[Fiesta Event Management](https://fiestaevents.netlify.app/)
+
+
 ## Table of Contents
 
 <ul>
