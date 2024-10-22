@@ -76,6 +76,17 @@ Before setting up the project, make sure you have the following prerequisites in
 
 ## Team
 
+### Prabhanjan Bhat
+
+<p align="left">
+  <a href="https://github.com" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub-black?style=flat&logo=github" alt="GitHub" />
+  </a>
+  <a href="https://www.linkedin.com" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin" alt="LinkedIn" />
+  </a>
+</p>
+
 ### Pradeep P T
 
 <p align="left">
@@ -87,16 +98,7 @@ Before setting up the project, make sure you have the following prerequisites in
   </a>
 </p>
 
-### Prabhanjan Bhat
 
-<p align="left">
-  <a href="https://github.com" target="_blank">
-    <img src="https://img.shields.io/badge/GitHub-black?style=flat&logo=github" alt="GitHub" />
-  </a>
-  <a href="https://www.linkedin.com" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin" alt="LinkedIn" />
-  </a>
-</p>
 
 ### Pranav Srinivas
 
