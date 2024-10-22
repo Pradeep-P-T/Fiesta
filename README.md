@@ -20,7 +20,7 @@ You can visit the live version of the Fiesta Event Management platform here:
     <li><a href="#prerequisites">Prerequisites</a></li>
     <li><a href="#installation">Installation</a></li>
   </ul>
-  <li><a href="#tech-used">TechStack Used</a></li>
+  <li><a href="#techstack-used">TechStack Used</a></li>
   <li><a href="#screenshots">Screenshots</a></li>
   <li><a href="#team">Team</a></li>
 </ul>
